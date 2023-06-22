@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "sequelize",
+    "password": "sequelize",
+    "database": "hi_dad",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "sequelize",
+    "password": "sequelize",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
