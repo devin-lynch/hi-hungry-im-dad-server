@@ -22,6 +22,15 @@ app.get('/', async (req, res) => {
   }
 });
 
+app.get('/jokes', async (req, res) => {
+  try {
+    const jokes = await db.joke.findAll();
+    res.send(jokes);
+  } catch (error) {
+    console.log(error);
+  }
+});
+
 app.post('/save', async (req, res) => {
   try {
     console.log(req.body.text);
