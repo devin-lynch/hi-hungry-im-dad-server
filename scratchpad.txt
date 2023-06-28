@@ -1,3 +1,4 @@
 sequelize model:create --name user --attributes firstName:string,lastName:string,age:integer,email:string
 
 sequelize model:create --name joke --attributes text:string
+sequelize model:create --name comment --attributes text:string
